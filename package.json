@@ -1,9 +1,10 @@
 {
-  "name": "test-babel",
-  "version": "1.0.0",
+  "name": "serverless-aws-es6-bolierplate",
+  "version": "0.0.1",
   "description": "",
   "main": "handler.js",
   "dependencies": {
+    "aws-sdk": "^2.122.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",

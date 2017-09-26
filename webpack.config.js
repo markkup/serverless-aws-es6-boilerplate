@@ -11,6 +11,9 @@ module.exports = {
     filename: '[name].js',
   },
   target: 'node',
+  externals: [
+    'aws-sdk'
+  ],
   module: {
     loaders: [
       { test: /\.ts(x?)$/, loader: 'ts-loader' },
